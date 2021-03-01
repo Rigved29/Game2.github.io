@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  background: #917a7c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #89216b,
+    #da4453
+  ); /*Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #89216b,
+    #da4453
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.score {
+  color: #c7365f;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 4rem;
+  margin-bottom: 300px;
+}
+.scoree {
+  color: #c7365f;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 4rem;
+  margin-bottom: 280px;
+}
+
+.name {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.down {
+  padding-top: 20px;
+}
+.player--active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.boxx {
+  background-color: rgba(255, 255, 255, 0.35);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.current {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  display: block;
+}
+.rowbox {
+  position: absolute;
+  top: 20rem;
+
+  background-color: #c7365f;
+  border-radius: 9px;
+  color: #fff;
+  width: 45%;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.75s;
+}
+.rowboxx {
+  position: absolute;
+  top: 14rem;
+
+  background-color: #c7365f;
+  border-radius: 9px;
+  color: #fff;
+  width: 45%;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.75s;
+}
+.btn {
+  position: absolute;
+  color: #444;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50rem; /* NOT  WORKING */
+  padding: 0.7rem 2.5rem;
+  backdrop-filter: blur(10px);
+}
+#holt {
+  transition: all 0.5s;
+}
+
+.btn--new {
+  top: 8rem;
+}
+.btn--neww {
+  top: 3.5rem;
+}
+
+.btn--roll {
+  top: 28rem;
+}
+.btn--rolls {
+  top: 37rem;
+  left: 1rem;
+}
+.btn--rolled {
+  top: 37rem;
+  left: 0.5rem;
+}
+
+.btn--hold {
+  top: 31rem;
+}
+.btn--holdd {
+  top: 37rem;
+  left: 24rem;
+}
+.btn--holds {
+  top: 37rem;
+  left: 15.5rem;
+}
+.btn--holdss {
+  top: 37rem;
+  left: 21rem;
+}
+.btn--holdsss {
+  top: 37rem;
+  left: 18rem;
+}
+.dice {
+  position: absolute;
+  top: 14rem;
+  height: 6rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.dicee {
+  position: absolute;
+  top: 36rem;
+  height: 6rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.player--winner {
+  background-color: #2f2f2f;
+}
+
+.hidden {
+  display: none;
+}
+.win {
+  background-color: '#2f2f2f';
+}
+.recol {
+  background-color: rgba(255, 255, 255, 0.35);
+}
